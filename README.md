@@ -14,5 +14,5 @@ The mining tool scripts and other filtering scripts can be found in this reposit
 # Execution steps
 
 1. To run the mining, you have to download the datasets from the G-Drive above.
-2. After that, you have to have the projects listed under 'topProjects.csv' and 'topJavaMavenProjects.csv' file with the help of the scripts- 'clone_top_repos.py' and 'clone_top_maven_projects.py'.
+2. After that, you have to have the projects listed under topProjects.csv and 'topJavaMavenProjects.csv' file with the help of the scripts- [clone_top_repos.py](GitHub Scripts/clone_top_repos.py) and [clone_top_maven_projects.py](GitHub Scripts/clone_top_maven_repos.py).
 3. For our experiment, we took 100 projects from Maven and Java respectively.
