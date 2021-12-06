@@ -1,0 +1,19 @@
+﻿Project name,Bugs Added,Bugs Detected,,Exceptional
+ArrayExamples,3,3,"14.,15,16",
+Average,2,2,"14,34",
+Bsort,3,3,"47,49",
+CallingMethodsInSameClass,2,2,"13,23",
+CompoundInterest,3,3,"48,49,54",
+DtoB,2,2,"14,18",
+EigtQueens,5,5,"37,48,49,66,177",
+EnhancedFor,4,4,"6,13,18,19",
+Factorial,2,1,7,
+FiletExample,3,4,"25,28,45,55",1 bug already in the code
+IntListVer2,1,1,32,
+IntListVer3,2,3,"53,53,76",1 bug already in the code
+Life,2,3,"47,48,55",1 bug already in the code
+MSort,3,3,"36,38,69",
+PrimitiveParameters,2,2,"12,16",
+Qsort,3,3,"41,43,72",
+RecursionExampleDirectory,3,2,"52,63",
+WordCount,3,4,"36,74,87,88",
