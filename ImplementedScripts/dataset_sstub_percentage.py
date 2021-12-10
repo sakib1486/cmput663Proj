@@ -17,7 +17,7 @@ def main():
 	#path to the JSON file and project repositories
 	maven_json_path = "Data/sstubs"
 	java_json_path = "Data/sstubsLarge"
-	java_proj_dir = "/media/sakib/478407FA0B573D27/JavaProj/"
+	java_proj_dir = "Data/JavaProj/"
 
 	df_maven = pd.read_json(maven_json_path)
 	print(f'Maven Projects SStuBs statisitcs: \n')
