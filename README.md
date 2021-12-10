@@ -66,7 +66,7 @@ This scanner can only analyze one single file at a time. The scanner is not opti
 `python3 ImplementedScripts/dataset_sstub_percentage.py`
 
 
-## Reports
+## Report
 
 Our Proposal and Final Report paper are saved in the [Project Report](ProjectReports/) directory for reference.
 
