@@ -8,6 +8,7 @@ This repository contains the _CMPUT663_ project works done titled as "**Which ca
 - [Participants](#participants)
 - [Task](#task)
 - [Acknowledgement](#Acknowledgement)
+- [Data] (#data)
 - [Directories](#directories)
 - [Execution] (#execution)
 - [Report](#report)
@@ -32,7 +33,7 @@ In accordance with the UofA Code of Student Behaviour, we acknowledge that
 
 Non-detailed oral discussion with others is permitted as long as any such discussion is summarized and acknowledged by all parties.
 
-## Data Files
+## Data
 All of our data files are big in size which is beyond the accepted size limit of GitHub. The dataset files are stored here: [CMPUT663 G-Drive](https://drive.google.com/drive/folders/1g67LT82hwNFgQpElUPDzWO3tFeuA5E0N?usp=sharing) which is our dedicated drive for thisproject. For analysis, one has to download the necessary data files.
 
 ## Directories
