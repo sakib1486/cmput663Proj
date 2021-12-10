@@ -8,7 +8,6 @@ This repository contains the _CMPUT663_ project works done titled as "**Which ca
 - [Participants](#participants)
 - [Task](#task)
 - [Acknowledgement](#Acknowledgement)
-- [Data Files] (#data)
 - [Folders](#folders)
 - [Report](#report)
 - [Bibliography](#bibliography)
@@ -33,14 +32,17 @@ In accordance with the UofA Code of Student Behaviour, we acknowledge that
 Non-detailed oral discussion with others is permitted as long as any such discussion is summarized and acknowledged by all parties.
 
 ## Data Files
-All of our data files are big in size which is beyond the accepted size limit of GitHub. The dataset files are stored here: [CMPUT663 G-Drive](https://drive.google.com/drive/folders/1g67LT82hwNFgQpElUPDzWO3tFeuA5E0N?usp=sharing) which is our dedicated drive for thisproject.
+All of our data files are big in size which is beyond the accepted size limit of GitHub. The dataset files are stored here: [CMPUT663 G-Drive](https://drive.google.com/drive/folders/1g67LT82hwNFgQpElUPDzWO3tFeuA5E0N?usp=sharing) which is our dedicated drive for thisproject. For analysis, one has to download the necessary data files.
 
 ## Directories
 The directory structure of the repository are as follows:
 
 1. **BugsAdded_CodeFiles**: This directory contains the code files that we utilized for our manual scanner to scan. In these files, we manually integraetd some SStuBs for the specific pattern that our manual scanner will look for.
 2. **NoBugs_CodeFiles**: This directory contains the code files that we collected where we manually integrated SStuBs. But these files are before adding bugs. If anyone wants, these files can be reued to implement newer template of bugs or number of bugs can even be increased.
-3. ****
+3. **ImplementedScripts**: This directory contains the scripts that we implemented for our analysis. The execution instructions for these scripts are described later.
+4. **ScriptsForDataCollection**: This directory contains the original scripts from the [_ManySStuBs4j_](https://github.com/mast-group/mineSStuBs) dataset's official GitHub repository. We used these scripts to download the projects that were used for static analysis through the analyzer tools.
+5. **ScannedReports**: These directories contain the scanned reports in _.csv_ formats. There are four files here. 
+                       - [MethodsArgumentsCheck.csv](ScannedReports/MethodsArgumentsCheck.csv) contains the reports of our manual scanner on the code files that are available in [here](BugsAdded_CodeFiles/)
 
 ## Scripts and Code
 
