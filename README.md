@@ -8,8 +8,8 @@ This repository contains the _CMPUT663_ project works done titled as "**Which ca
 - [Participants](#participants)
 - [Task](#task)
 - [Acknowledgement](#Acknowledgement)
-- [Folders](#folders)
-- [Execution Steps] (#execute)
+- [Directories](#directories)
+- [Execution] (#execution)
 - [Report](#report)
 - [Bibliography](#bibliography)
 
@@ -49,7 +49,7 @@ The directory structure of the repository are as follows:
   - [spotbugs_bugs_maven.csv](ScannedReports/spotbugs_bugs_maven.csv) contains the SpotBugs scan reports on our selected Maven projects.
 
 
-## Execution steps
+## Execution
 
 1. To run the mining, you have to download the datasets from the [G-Drive](https://drive.google.com/drive/folders/1g67LT82hwNFgQpElUPDzWO3tFeuA5E0N?usp=sharing).
 2. After that, you have to have the projects listed under topProjects.csv and 'topJavaMavenProjects.csv' file with the help of the scripts- [clone_top_repos.py](Scripts For Data Collection/clone_top_repos.py) and [clone_top_maven_repos.py](Scripts For Data Collection/clone_top_maven_repos.py). We can choose any number of projects
