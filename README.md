@@ -8,9 +8,9 @@ This repository contains the _CMPUT663_ project works done titled as "**Which ca
 - [Participants](#participants)
 - [Task](#task)
 - [Acknowledgement](#Acknowledgement)
-- [Data] (#data)
+- [Data](#data)
 - [Directories](#directories)
-- [Execution] (#execution)
+- [Execution](#execution)
 - [Report](#report)
 - [Bibliography](#bibliography)
 
@@ -55,11 +55,17 @@ The directory structure of the repository are as follows:
 1. To run the mining, you have to download the datasets from the [G-Drive](https://drive.google.com/drive/folders/1g67LT82hwNFgQpElUPDzWO3tFeuA5E0N?usp=sharing).
 2. After that, you have to have the projects listed under topProjects.csv and 'topJavaMavenProjects.csv' file with the help of the scripts- [clone_top_repos.py](Scripts For Data Collection/clone_top_repos.py) and [clone_top_maven_repos.py](Scripts For Data Collection/clone_top_maven_repos.py). We can choose any number of projects
 3. For our experiment, we took 100 projects from Maven and Java respectively. The next step is to scan the projects wtih the static analyzers of anyone's choice, and filtering out the desired SStuBs' patterns to analyze. The execution steps for the static analyzers that we used can be achieved here- [SonarQube](https://github.com/SonarSource/sonarqube), [SpotBugs](https://github.com/spotbugs/spotbugs), and [PMD](https://pmd.github.io/).
-4. **Manuak Scanning**: To manually scan a Java file for the two templates of SStuBs named "_Same Function More Args_" and "_Same Function Less Args_" can be achieved by running the folowing command-
+4. **Manual Scanning**: To manually scan a Java file for the two templates of SStuBs named "_Same Function More Args_" and "_Same Function Less Args_" can be achieved by running the folowing command-
 
 `python3 ImplementedScripts/manualScanner.py`
 
 This scanner can only analyze one single file at a time. The scanner is not optimized yet, thus the path to the file that one wants to scan has to be manually edited in the [Scanner](ImplementedScripts/manualScanner.py) file.
+
+5. **SStuBs Statistics**: With running this script after one have downloaded the data files, and updated the filepaths in this [file](ImplementedScripts/dataset_sstub_percentage.py) an thorough percentage of the 16 templates of SStuBs that are present in the dataset will be printed out in the terminal based on the number of projects that we considered for the study. To run the script the filepaths need to be updated accordingly in the file. Run the following command in the root directory.
+
+`python3 ImplementedScripts/dataset_sstub_percentage.py`
+
+
 
 
 
