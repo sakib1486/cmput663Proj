@@ -66,7 +66,21 @@ This scanner can only analyze one single file at a time. The scanner is not opti
 `python3 ImplementedScripts/dataset_sstub_percentage.py`
 
 
+## Reports
 
+Our Proposal and Final Report paper are saved in the [Project Report](ProjectReports/) directory for reference.
+
+## Bibliography
+
+The following resources were cosnulted:
+
+https://pmd.github.io/
+
+https://github.com/SonarSource/sonarqube
+
+https://github.com/spotbugs/spotbugs
+
+https://dl.acm.org/doi/10.1145/3379597.3387491
 
 
 
