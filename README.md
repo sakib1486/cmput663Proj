@@ -61,7 +61,9 @@ The directory structure of the repository are as follows:
 
 This scanner can only analyze one single file at a time. The scanner is not optimized yet, thus the path to the file that one wants to scan has to be manually edited in the [Scanner](ImplementedScripts/manualScanner.py) file.
 
-5. **SStuBs Statistics**: With running this script after one have downloaded the data files, and updated the filepaths in this [file](ImplementedScripts/dataset_sstub_percentage.py) an thorough percentage of the 16 templates of SStuBs that are present in the dataset will be printed out in the terminal based on the number of projects that we considered for the study. To run the script the filepaths need to be updated accordingly in the file. Run the following command in the root directory.
+5. **SStuBs Statistics**: To run this we need to have our projects downloaded in a directory. Then we also have to update the filepaths in this [file](ImplementedScripts/dataset_sstub_percentage.py). A thorough percentage of the 16 templates of SStuBs that are present in the dataset will be printed out in the terminal. If projects are downloaded from our Googe Drive, the percentage and number of SStuBs present in the dataset will match. To run the script the filepaths need to be updated accordingly in the file. 
+
+To get the statistics, run the following command in the root directory.
 
 `python3 ImplementedScripts/dataset_sstub_percentage.py`
 
