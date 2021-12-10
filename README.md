@@ -42,7 +42,10 @@ The directory structure of the repository are as follows:
 3. **ImplementedScripts**: This directory contains the scripts that we implemented for our analysis. The execution instructions for these scripts are described later.
 4. **ScriptsForDataCollection**: This directory contains the original scripts from the [_ManySStuBs4j_](https://github.com/mast-group/mineSStuBs) dataset's official GitHub repository. We used these scripts to download the projects that were used for static analysis through the analyzer tools.
 5. **ScannedReports**: These directories contain the scanned reports in _.csv_ formats. There are four files here. 
-                       - [MethodsArgumentsCheck.csv](ScannedReports/MethodsArgumentsCheck.csv) contains the reports of our manual scanner on the code files that are available in [here](BugsAdded_CodeFiles/)
+  - [MethodsArgumentsCheck.csv](ScannedReports/MethodsArgumentsCheck.csv) contains the reports of our manual scanner on the code files that are available in [here](BugsAdded_CodeFiles/)
+  - [SonarQube_Rerport.csv](ScannedReports/SonarQube_Report.csv) contains the SonarQube scan reports on our selected projects from Maven and Java.
+  - [spotbugs_bugs_java.csv](ScannedReports/spotbugs_bugs_java.csv) contains the SpotBugs scan reports on our selected Java projects.
+  - [spotbugs_bugs_maven.csv](ScannedReports/spotbugs_bugs_maven.csv) contains the SpotBugs scan reports on our selected Maven projects.
 
 ## Scripts and Code
 
