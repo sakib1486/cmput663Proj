@@ -8,7 +8,7 @@ def main():
 
 	#path to the JSON file and project repositories
 	json_path = "Data/sstubsLarge"
-	proj_dir = "/media/sakib/478407FA0B573D27/JavaProj/"
+	proj_dir = "Data/JavaProj/"
 
 	filenames = os.listdir(proj_dir)
 	#print(filenames)
